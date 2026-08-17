@@ -236,18 +236,18 @@ lec_order_reconciliation/
 
 |-- data/
 |-- |_ live_events.json
-│   |_ warehouse_snapshot.json
-│
-├── tests/
-│   ├── test_reconciliation.py
-│   └── test_idempotency.py
-│
-├── main.py
-├── reconciliation.py
-├── database.py
-├── check_database.py
-├── requirements.txt
-└── README.md
+|   |_ warehouse_snapshot.json
+|
+|-- tests/
+|   |-- test_reconciliation.py
+|   |-- test_idempotency.py
+|
+|-- main.py
+|-- reconciliation.py
+|-- database.py
+|-- check_database.py
+|-- requirements.txt
+|-- README.md
 ```
 
 ---
