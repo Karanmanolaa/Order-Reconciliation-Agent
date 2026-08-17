@@ -234,9 +234,9 @@ This provides an audit trail showing why a particular state was selected.
 ```
 lec_order_reconciliation/
 
-├── data/
-│   ├── live_events.json
-│   └── warehouse_snapshot.json
+|-- data/
+|-- |_ live_events.json
+│   |_ warehouse_snapshot.json
 │
 ├── tests/
 │   ├── test_reconciliation.py
