@@ -1,0 +1,20 @@
+[
+    {
+      "order_id": "ORD001",
+      "status": "PROCESSING",
+      "amount": 100,
+      "snapshot_time": "2026-08-15T12:00:00"
+    },
+    {
+      "order_id": "ORD002",
+      "status": "PROCESSING",
+      "amount": 250,
+      "snapshot_time": "2026-08-15T12:00:00"
+    },
+    {
+      "order_id": "ORD004",
+      "status": "PROCESSING",
+      "amount": 500,
+      "snapshot_time": "2026-08-15T12:00:00"
+    }
+  ]
