@@ -235,8 +235,8 @@ This provides an audit trail showing why a particular state was selected.
 lec_order_reconciliation/
 
 |-- data/
-|-- |_ live_events.json
-|   |_ warehouse_snapshot.json
+|-- |-- live_events.json
+|   |-- warehouse_snapshot.json
 |
 |-- tests/
 |   |-- test_reconciliation.py
@@ -338,16 +338,7 @@ SQLite was chosen because it provides:
 
 while still demonstrating the core behaviour of a reconciliation ledger.
 
----
 
-# Possible Improvements
-
-If this was extended into a production system, the next improvements would be:
-
-- Replace JSON files with a real event stream
-- Add a message queue such as Kafka
-- Create a manual review workflow for flagged conflicts
-- Add monitoring and reconciliation metrics
 - Add retry handling for failed processing
 
 ---
